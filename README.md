@@ -29,7 +29,7 @@
 		- Deployment with heroku and much more
 
 3. Features we need in our app
-	 - Landing Page
+	- Landing Page
 	- Login
 	- Sign up
 	- Link Detection
