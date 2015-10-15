@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "toastr";
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -12,13 +13,13 @@ body {
 .navbar-brand {
     float: left;
     padding: 1.2em 2em 2.4em;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 20px;
     height: 50px;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
-    margin-top: 2.8em;
+    letter-spacing: 0.3em;
+    margin-top: 2.4em;
     border: 2px solid #E9E9E9;
 }
 
@@ -41,8 +42,10 @@ body {
 }
 
 .navbar-nav > li > a {
-    margin-top: 3em;
+    margin-top: 2em;
     padding-right: 2em;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .navbar-default {
@@ -57,4 +60,9 @@ body {
 
 .navbar-default .navbar-brand {
     color: #404040;
+}
+
+.avatar_fix {
+    width: 38px;
+    margin-right: 0.5em;
 }
