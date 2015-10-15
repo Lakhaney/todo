@@ -22,13 +22,26 @@ body {
     border: 2px solid #E9E9E9;
 }
 
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 3em;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
 .navbar-right {
     float: right !important;
     margin-right: 2em;
 }
 
 .navbar-nav > li > a {
-    padding-top: 3.7em;
+    margin-top: 3em;
     padding-right: 2em;
 }
 
@@ -40,7 +53,6 @@ body {
 .navbar {
     position: relative;
     min-height: 120px;
-    margin-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
