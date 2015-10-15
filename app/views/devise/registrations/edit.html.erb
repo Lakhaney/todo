@@ -3,7 +3,7 @@
     <h2>Edit <%= resource_name.to_s.humanize %></h2>
 
       <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
-      <%= f.error_notification %>
+      <%= render partial: 'layouts/devisemessage' %>
 
       <div class="form-group">
         <%= f.input :fullname, required: true, autofocus: true, label: false, placeholder: 'Full Name' %>

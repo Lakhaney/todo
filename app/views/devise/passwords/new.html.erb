@@ -3,7 +3,7 @@
 		<h2>Forgot your password?</h2>
 
 		<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
-		  <%= f.error_notification %>
+		  <%= render partial: 'layouts/devisemessage' %>
 
 	  <div class="form-group">
 	    <%= f.input :email, required: true, autofocus: true, class: 'form-control', placeholder: 'Email Address', label: false %>

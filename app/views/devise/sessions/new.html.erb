@@ -3,6 +3,7 @@
 		<h2>Log in</h2>
 
 <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+<%= render partial: 'layouts/devisemessage' %>
   <div class="form-group">
     <%= f.input :email, required: false, autofocus: true, class: 'form-control', placeholder: 'Email Address', label: false %>
     <%= f.input :password, required: false, class: 'form-control', label: false, placeholder: 'Password' %>
