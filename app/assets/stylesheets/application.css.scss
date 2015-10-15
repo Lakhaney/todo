@@ -6,19 +6,25 @@ body {
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .navbar-brand {
     float: left;
-    padding: 15px 15px;
-    font-size: 18px;
+    padding: 1.2em 2em 2.4em;
+    font-size: 11px;
+    font-weight: 700;
     line-height: 20px;
     height: 50px;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-top: 1.8em;
+    letter-spacing: 0.5em;
+    margin-top: 2.8em;
     border: 2px solid #E9E9E9;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 2em;
 }
 
 .navbar-nav > li > a {
@@ -35,4 +41,8 @@ body {
     position: relative;
     min-height: 120px;
     margin-bottom: 20px;
+}
+
+.navbar-default .navbar-brand {
+    color: #404040;
 }
