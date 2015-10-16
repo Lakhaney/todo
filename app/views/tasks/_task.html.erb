@@ -9,7 +9,7 @@
   <% end %>
 </span>
   </div>
-  <div class="panel-body"><%= task.content %>
+  <div class="panel-body"><%= raw(task.content_html) %>
   </div>
   <div class="panel-footer text-center">
 		<% if task.state == "doing" %>

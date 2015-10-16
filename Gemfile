@@ -29,6 +29,7 @@ gem 'devise'
 gem 'toastr-rails', '~> 1.0.3'
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'auto_html'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
