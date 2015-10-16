@@ -1,6 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "toastr";
+@import "normalize";
+
+$dark: #424652;
+$white: #FFFFFF;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -65,4 +72,30 @@ body {
 .avatar_fix {
     width: 38px;
     margin-right: 0.5em;
+}
+
+#main_footer {
+    padding: 2.5em 5% 3.5em;
+    border-top: 1px solid $border;
+    background-color: #3D3F4F;
+    margin-top: 5em;
+    .copyright {
+        float: left;
+        font-size: .9em;
+        margin: 0;
+        color: white;
+    }
+    nav {
+        float: right;
+        i {
+                margin-left: 1em;
+                padding-top: .1em;
+                color: white;
+                font-size: 1.2em;
+            &:hover {
+                color: $highlight;
+                transition: color 0.2s;
+            }
+        }
+    }
 }
