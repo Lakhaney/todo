@@ -1,5 +1,7 @@
 ![Image](/screen.png?raw=true)
 
+## Update : I haven't styled the task/_form.html.erb file as well as the task/show.html as these apps are meant for my 20in20 Challenge. However, i would be styling the views for user login, registration, profile edit etc later when i get time.
+
 # Planning our application
 1. What are we building?
 2. Who are we building it for?
