@@ -1,3 +1,5 @@
+![Screenshot of the app](http://s13.postimg.org/3spcbe18l/Screen_Shot_2015_10_16_at_11_31_45_PM.png)
+
 # Planning our application
 1. What are we building?
 2. Who are we building it for?
@@ -45,4 +47,27 @@ As a blank, i want to be able to blank, so that blank
 
 ## Modelling our data
 
+ - Tasks
+ 	- content
+ 	- content_html
+ 	- status
+
+ - Users
+ 	- username
+ 	- email
+ 	- password
+ 	- facebook_uid
+
 ## Pages we need in our app
+- Tasks
+	- index
+	- show
+	- new
+	- edit
+	- delete
+
+- Users
+	- Sign up
+	- Sign in
+	- Edit profile
+	- Logout

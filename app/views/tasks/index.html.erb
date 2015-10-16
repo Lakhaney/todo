@@ -5,6 +5,9 @@
   <span><emi><%= @to_do.count%></emi> Tasks Pending</span>
   <span><emi><%= @doing.count%></emi> Ongoing Tasks</span>
   <span><emi><%= @done.count%></emi> Tasks Done</span>
+  <%= link_to new_task_path do %>
+    <i class="fa fa-plus"></i>
+  <% end %>
 </div>
 <div id= "tasks_headers" class="row">
   <div class="col-md-4"><h1>To Do</h1>
@@ -20,5 +23,3 @@
     <%= render @done %>
   </div>
 </div>
-
-<%= link_to 'New Task', new_task_path %>
