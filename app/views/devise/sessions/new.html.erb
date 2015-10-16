@@ -3,7 +3,7 @@
 		<h2>Log in</h2>
 
     <%= link_to "Login with Facebook", user_omniauth_authorize_path(:facebook), class: 'btn btn-primary' %>  
-
+    <hr>
     <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
     <%= render partial: 'layouts/devisemessage' %>
       <div class="form-group">

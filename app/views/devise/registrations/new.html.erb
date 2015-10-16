@@ -3,6 +3,7 @@
 		<h2>Sign up</h2>
 		<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
 		<%= link_to "Register with Facebook", user_omniauth_authorize_path(:facebook), class: 'btn btn-primary' %>
+		<hr>
 	  <div class="form-group">
 	  	<%= f.input :fullname, required: true, autofocus: true, class: 'form-control', placeholder: 'Full Name', label: false %>
 	    <%= f.input :email, required: true, class: 'form-control', placeholder: 'Email Address', label: false %>
