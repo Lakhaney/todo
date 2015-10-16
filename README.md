@@ -1,4 +1,4 @@
-![Image](http://s13.postimg.org/3spcbe18l/Screen_Shot_2015_10_16_at_11_31_45_PM.png)
+![Image](http://s13.postimg.org/3spcbe18l/Screen_Shot_2015_10_16_at_11_31_45_PM.png?raw=true)
 
 # Planning our application
 1. What are we building?
