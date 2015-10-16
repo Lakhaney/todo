@@ -99,3 +99,41 @@ body {
         }
     }
 }
+
+.task_time {
+    padding: 2em 1em 3em;
+    font-weight: 700;
+    font-size: 1em;
+    color: #3D3F4F;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 3em;
+}
+
+#task_bar {
+    span {
+        padding-left: 5em;
+        font-weight: 400;
+        emi {
+            font-size: 2em;
+            font-weight: 700;
+            margin-right: 0.3em;
+            color: $dark;
+        }
+    }
+}
+
+#tasks_headers {
+    h1 {
+        text-transform: uppercase;
+    }
+    hr {
+        width: 4em;
+        display: block;
+        height: 2px;
+        border: 0;
+        border-top: 3px solid #8bc6db;
+        padding-bottom: 1em;
+        margin-top: 2em;
+        margin-left: 5px;
+    }
+}

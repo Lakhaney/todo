@@ -1,11 +1,22 @@
-<div class="row">
-  <div class="col-md-4"><h1 class="text-center">To Do</h1>
+<div id="task_bar" class="task_time">
+  <%= Time.now.strftime("%B") %>
+  <%= Time.now.strftime("%d") %>,
+  <%= Time.now.strftime("%A") %>
+  <span><emi><%= @to_do.count%></emi> Tasks Pending</span>
+  <span><emi><%= @doing.count%></emi> Ongoing Tasks</span>
+  <span><emi><%= @done.count%></emi> Tasks Done</span>
+</div>
+<div id= "tasks_headers" class="row">
+  <div class="col-md-4"><h1>To Do</h1>
+  <hr>
     <%= render @to_do %>
   </div>
-  <div class="col-md-4"><h1 class="text-center">Doing</h1>
+  <div class="col-md-4"><h1>Doing</h1>
+  <hr>
     <%= render @doing %>
   </div>
-  <div class="col-md-4"><h1 class="text-center">Done</h1>
+  <div class="col-md-4"><h1>Done</h1>
+  <hr>
     <%= render @done %>
   </div>
 </div>

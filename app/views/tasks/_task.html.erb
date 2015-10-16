@@ -1,5 +1,10 @@
 <div class="panel panel-info">
   <div class="panel-heading">Created <%= time_ago_in_words(task.created_at) %>
+  <soan class="pull-right">
+  <%= link_to task_path(task), method: :delete, data: {confirm: "Are you sure?"}, class: "pull-right" do %>
+	<i class="fa fa-trash-o"></i>
+  <% end %>
+</soan>
   </div>
   <div class="panel-body"><%= task.content %>
   </div>
